@@ -1,0 +1,82 @@
+.container{
+    box-sizing: border-box;
+    height: 300px;
+    width: 200px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 50px;
+  
+}
+
+.div {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    
+  }
+  .tooltip:hover{
+    background-color:grey;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .flex{
+    display: flex;
+    gap: 10px;
+  }
+  .compose{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  .compose:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  .inbox{
+ background-color: #87C4FF;
+ border-top-right-radius: 25px;
+ border-bottom-right-radius: 25px;
+ margin-right: 5px;
+    height: 30px;
+    width: 100%;
+  }
+.inbox:hover{
+    cursor: pointer;
+}
+.hover:hover{
+    cursor: pointer;
+    background-color: #888888;
+    border-top-right-radius: 25px;
+ border-bottom-right-radius: 25px;
+ height: 30px;
+ width: 100%;
+}
